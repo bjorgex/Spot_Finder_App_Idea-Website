@@ -78,6 +78,54 @@ nav{
     margin-bottom: 300px;
 }
 
+#reviewBox100{
+background-color: green;
+width: 100%;
+height: 250px;
+display: flex;
+align-items: center;
+}
+
+#reviewBoxLogoAndReviews{
+    background-color: hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    height: 100%;
+
+}
+#reviewLogo{
+    
+    width: 30%;
+    height: 100%;
+    background-color: indigo;
+
+
+}
+#reviewLogo img{
+    background-color: lightseagreen;
+    height: 50%;
+    width: 100%;
+    
+}
+#reviewLogo p{
+    background-color: lightcoral;
+    height: 50%;
+    width: 100%;
+
+}
+
+#reviewBox{
+    display: flex;
+    width: 70%;
+
+}
+#reviewBoxDelt{
+    
+}
 #navBox nav div{
     margin-left: 25px;
     background-color: snow;
