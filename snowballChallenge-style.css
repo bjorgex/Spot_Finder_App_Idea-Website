@@ -13,13 +13,28 @@ body{
     justify-content: center;
 }
 
-#divTop{
-    width: 95%;
+#divTopLeft{
+    width: 50%;
     background-color: #503617;
     margin-top: 10px;
     border-radius: 20px;
     display: flex;
     height: 100px;
+}
+
+#divTopRight{
+    width: 30%;
+    background-color: black;
+    margin-top: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+#divTopRight img{
+    width: 150px;
 }
 
 #logoTop{
