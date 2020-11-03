@@ -26,3 +26,15 @@ body{
     width: 100px;
     margin-left: 25px;
 }
+nav{
+    margin-left: 5%;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 15px;
+    padding: 25px;
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 300px;
+}
