@@ -256,18 +256,50 @@ transition: 1.5s;
     flex-wrap: wrap;
     justify-content: space-around;
     
-    
-    
-    
 }
+
+@media only screen and(max-width: 1190px){
+    #localTreasureFlex div{
+        width: 15%;
+        padding: 1%;
+         
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px;
+        border-radius: 5px;
+        border-style: solid;
+        border-color: white;
+            
+    }
+
+} 
 
 .icons{
     width: 100*1.66667px;
     height: 100px;
 }
 
+
 #localTreasures div{
     margin-bottom: 25px;
     text-align: center;
 }
-#localTressureFlex div
+
+#localTreasureFlex div{
+    width: 15%;
+    padding: 1%;
+     
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
+        
+}
+#localTreasureFlex div p{
+    text-align: left;
+
+}
