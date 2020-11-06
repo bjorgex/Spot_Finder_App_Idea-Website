@@ -1,5 +1,9 @@
 @import url('https://rsms.me/inter/inter.css');
 html { font-family: 'Inter', sans-serif; }
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+html { font-family: 'PT Sans', sans-serif; }
+
 *{
     margin: 0;
     padding: 0;
@@ -93,51 +97,109 @@ nav{
     font-size: 25px;
     margin-right: 15px;
     border: solid 1px;
+
 }
+
+
+
 
 #reviewBox100{
 background-color: green;
 width: 100%;
-height: 250px;
+height: 350px;
 display: flex;
 align-items: center;
+flex-direction: column;
 }
 
 #reviewBoxLogoAndReviews{
-    background-color: hotpink;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 15%;
-    margin-right: 15%;
     width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     height: 100%;
+    background-color: black;
 }
 #reviewLogo{
     width: 30%;
     height: 100%;
-    background-color: indigo;
-}
-#reviewLogo img{
-    background-color: lightseagreen;
-    height: 50%;
-    width: 100%;
     
-}
-#reviewLogo p{
-    background-color: lightcoral;
-    height: 50%;
-    width: 100%;
+    width: 80%;
+    background-color: blue;
 
 }
 
 #reviewBox{
+    background-color: brown;
+    width: 90%;
+    height: 100%;
     display: flex;
-    width: 70%;
+    flex-direction: row;
+    
+        
+}
+
+#reviewBox div{
+    background-color: khaki;
+    width: 30%;
+    text-align: center;
+    border: 5px;
+    border-radius: 10px;
+    margin: 15px;
+   height: 60%;
+     
+    
+}
+#reviewBox div img{
+    padding: 10px;
+    width: 80%;
+    border: 5px;
+    border-radius: 15px;
+    
+}
+#reviewBox div p{
+    margin: 10%;
+    text-align: left;
+    font-family: 'Inter';
+    font-size: 7px;
+    
+}
+.countryAndPlace{
+    padding-left: 5%;
+    
+    border: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    
+    
+}
+
+#reviewLogo{
+    height: 30%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
 
 }
-#reviewBoxDelt{
+#reviewLogo img{
     
+    height: 50px;
+    width: 80%;
+
+}
+
+#reviewLogo p{
+    font-size: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
 }
 
 
@@ -148,4 +210,14 @@ align-items: center;
         color: white;
     }
 
+
+
+    #navBox nav div{
+        margin-left: 25px;
+        background-color: snow;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 25px;
+        margin-right: 15px;
+    }
 }
