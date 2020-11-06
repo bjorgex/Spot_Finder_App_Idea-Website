@@ -133,13 +133,14 @@ flex-direction: column;
 }
 
 #reviewBox div{
-    background-color: #D4A87F;
+    background-color: #f7cdce;
     width: 30%;
     height: 80%;
     text-align: center;
     border: 5px;
     border-radius: 10px;
     margin: 15px;
+    color: rgb(6, 0, 39);
     
     
 }
@@ -168,8 +169,8 @@ flex-direction: column;
     border: 1px;
     border-radius: 5px;
     border-style: solid;
-    border-color: black;
-    width: 30%;
+    border-color: rgb(6, 0, 39);
+    width: auto;
 }
 
 #reviewLogo{
@@ -190,13 +191,11 @@ flex-direction: column;
     width: 50px;
 
 }
+#reviewLogo img:hover{
 
-#reviewLogo p{
-    font-size: 10px;
-    width: 80%;
-
-    padding-left: 30%;
-    text-align: left;
+width: 70px;
+height: 70px;
+transition: 1.5s;
 
 }
 
