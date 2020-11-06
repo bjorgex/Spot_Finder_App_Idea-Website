@@ -111,9 +111,6 @@ nav{
 
 }
 
-
-
-
 #reviewBox100{
 background-color: #196141;
 width: 100%;
@@ -122,8 +119,6 @@ display: flex;
 align-items: center;
 flex-direction: column;
 box-shadow:         3px 3px 5px 6px #ccc;
-
-
 }
 
 #reviewBoxLogoAndReviews{
@@ -253,6 +248,8 @@ footer{
     justify-content: center;
     align-items: center;
     box-shadow:         3px 3px 5px 6px #ccc;
+    font-family: 'Inter';
+    font-weight: bold;
 
 }
 
@@ -285,3 +282,44 @@ footer{
     }
 }
 
+@media only screen and (max-width: 700px){
+    #reviewBox{
+    
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    
+    }
+
+    #reviewBox div{
+        background-color: #f7cdce;
+        width: 150px;
+        height: 300px;
+        text-align: center;
+        border: 5px;
+        border-radius: 10px;
+        margin: 15px;
+        color: rgb(6, 0, 39);
+        box-shadow:         3px 3px 5px 6px #134931;
+        transition: 0.5s;    
+        
+    }
+
+    #reviewBox100{
+        background-color: #196142;
+        width: 100%;
+        height: 1050px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow:         3px 3px 5px 6px #ccc;
+    }
+
+    #reviewLogo img{
+        visibility: hidden;
+        width: 0;
+    }
+}
