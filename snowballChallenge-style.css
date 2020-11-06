@@ -278,19 +278,18 @@ footer{
 #localTreasures{
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
-    border-radius: 15px;
-    
-    background-color: white;
+    width: 100%;    
+    background-color: #FCF2E8;
     
 }
 
 #localTreasures h2{
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     width: 100%;
     margin-top: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    color: #503617;
 }
 
 #localTreasureFlex{
@@ -330,21 +329,29 @@ footer{
     text-align: center;
 }
 
+#localTreasures div img{
+    margin: 5px;
+}
+
 #localTreasureFlex div{
     width: 15%;
     padding: 1%;
-     
+    background-color: #196141;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px;
+    border: 8px;
     border-radius: 5px;
     border-style: solid;
-    border-color: white;
+    border-color: #196141 ;
+    box-shadow:         3px 3px 3px 3px #ccc;
+
+    
         
 }
 #localTreasureFlex div p{
     text-align: left;
+    color: white;
 
 }
     
@@ -380,7 +387,7 @@ footer{
         border-radius: 10px;
         margin: 15px;
         color: rgb(6, 0, 39);
-        box-shadow:         3px 3px 5px 6px #134931;
+        box-shadow: 3px 3px 5px 6px #134931;
         transition: 0.5s;    
         
     }
@@ -400,4 +407,17 @@ footer{
         visibility: hidden;
         width: 0;
     }
+}
+
+@media only screen and (max-width: 1329px){
+    #localTreasureFlex div{
+        width: 130px;
+        
+    }
+
+    #localTreasureFlex div img{
+        width: 130px;
+        
+    }
+    
 }
