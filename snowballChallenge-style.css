@@ -59,15 +59,14 @@ body{
     width: 150px;
     border-radius: 10px;
     margin-right: 10px;
+    transition: 0.2s;
+
 }
 
 #divTopRight img:hover{
     filter: invert(1);
     cursor: pointer;
-}
-#navBox nav div:hover{
-    filter: invert(1);
-    cursor:pointer;
+    transition: 0.35s;
 }
 
 #logoTop{
@@ -97,6 +96,14 @@ nav{
     font-size: 25px;
     margin-right: 15px;
     border: solid 1px;
+    transition: 0.3s;
+
+}
+
+#navBox nav div:hover{
+    filter: invert(1);
+    cursor:pointer;
+    transition: 0.35s;
 
 }
 
