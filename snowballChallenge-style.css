@@ -15,7 +15,7 @@ body{
 }
 #topContainer{
     background-color: #503617;
-    height: 170px;
+    height: 120px;
 }
 
 #divTop{
@@ -57,6 +57,15 @@ body{
     margin-right: 10px;
 }
 
+#divTopRight img:hover{
+    filter: invert(1);
+    cursor: pointer;
+}
+#navBox nav div:hover{
+    filter: invert(1);
+    cursor:pointer;
+}
+
 #logoTop{
     width: 100px;
     margin-left: 25px;
@@ -68,14 +77,22 @@ body{
     justify-content: center;
 }
 nav{
-    margin-left: 5%;
-    width: 95%;
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
+    justify-content: space-around;
     border-radius: 15px;
     padding: 5px;
     margin-bottom: 300px;
+}
+
+#navBox nav div{
+    margin-left: 25px;
+    background-color: snow;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-right: 15px;
+    border: solid 1px;
 }
 
 #reviewBox100{
@@ -95,15 +112,11 @@ align-items: center;
     margin-right: 15%;
     width: 70%;
     height: 100%;
-
 }
 #reviewLogo{
-    
     width: 30%;
     height: 100%;
     background-color: indigo;
-
-
 }
 #reviewLogo img{
     background-color: lightseagreen;
@@ -126,11 +139,13 @@ align-items: center;
 #reviewBoxDelt{
     
 }
-#navBox nav div{
-    margin-left: 25px;
-    background-color: snow;
-    padding: 5px;
-    border-radius: 5px;
-    font-size: 25px;
-    margin-right: 15px;
+
+
+@media only screen and (max-width: 600px){
+    
+    #divTopLeft p{
+        font-size: 28px;
+        color: white;
+    }
+
 }
