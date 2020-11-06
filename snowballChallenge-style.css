@@ -104,7 +104,7 @@ nav{
 
 
 #reviewBox100{
-background-color: green;
+background-color: #196141;
 width: 100%;
 height: 350px;
 display: flex;
@@ -133,7 +133,7 @@ flex-direction: column;
 }
 
 #reviewBox div{
-    background-color: khaki;
+    background-color: #D4A87F;
     width: 30%;
     height: 80%;
     text-align: center;
@@ -150,26 +150,26 @@ flex-direction: column;
 }
 
 #reviewBox div img{
-    padding: 10px;
-    width: 80%;
+    
+    width: 100%;
     border: 5px;
-    border-radius: 15px;
+    border-radius: 10px;
     
 }
 #reviewBox div p{
-    margin: 10%;
+    margin: 4%;
     text-align: left;
     font-family: 'Inter';
-    font-size: 7px;
+    font-size: 14px;
     
 }
 .countryAndPlace{
     padding-left: 5%;
-    
     border: 1px;
     border-radius: 5px;
     border-style: solid;
     border-color: black;
+    width: 30%;
 }
 
 #reviewLogo{
@@ -195,7 +195,7 @@ flex-direction: column;
     font-size: 10px;
     width: 80%;
 
-    padding-left: 15%;
+    padding-left: 30%;
     text-align: left;
 
 }
