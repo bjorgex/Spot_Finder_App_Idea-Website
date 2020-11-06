@@ -118,38 +118,37 @@ flex-direction: column;
     flex-direction: row;
     align-items: center;
     height: 100%;
-    background-color: black;
-}
-#reviewLogo{
-    width: 30%;
-    height: 100%;
     
-    width: 80%;
-    background-color: blue;
-
 }
+
 
 #reviewBox{
-    background-color: brown;
+    
     width: 90%;
     height: 100%;
     display: flex;
     flex-direction: row;
-    
+    align-items: center;
         
 }
 
 #reviewBox div{
     background-color: khaki;
     width: 30%;
+    height: 80%;
     text-align: center;
     border: 5px;
     border-radius: 10px;
     margin: 15px;
-   height: 60%;
-     
+    
     
 }
+#reviewBox div:hover{
+    height: 90%;
+    width: 40%;
+    transition: 0.5s;
+}
+
 #reviewBox div img{
     padding: 10px;
     width: 80%;
@@ -171,8 +170,6 @@ flex-direction: column;
     border-radius: 5px;
     border-style: solid;
     border-color: black;
-    
-    
 }
 
 #reviewLogo{
@@ -182,23 +179,24 @@ flex-direction: column;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
-    
 
 }
+
+
+
 #reviewLogo img{
     
     height: 50px;
-    width: 80%;
+    width: 50px;
 
 }
 
 #reviewLogo p{
     font-size: 10px;
     width: 80%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+
+    padding-left: 15%;
+    text-align: left;
 
 }
 
