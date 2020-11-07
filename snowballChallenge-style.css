@@ -214,6 +214,7 @@ transition: 0.5s;
 }
 
 
+
 #slagOrdBox{
     width: 100%;
     height: 330px;
@@ -238,6 +239,8 @@ transition: 0.5s;
     text-align: right;
 }
 
+
+
 footer{
     width: 100%;
     height: 50px;
@@ -252,6 +255,9 @@ footer{
     font-weight: bold;
 
 }
+
+
+
 
 @media only screen and (min-width: 1300px){
     #mainDiv{
@@ -418,6 +424,15 @@ footer{
     }
 }
 
+@media only screen and (min-width: 2463px){
+    #reviewBox div img{
+        height: 90%;
+        
+    }   
+}
+
+
+
 @media only screen and (max-width: 1329px){
     #localTreasureFlex div{
         width: 130px;
@@ -439,4 +454,18 @@ a:visited{
 a{
     text-decoration: none;
     color: black;
+}
+
+@media only screen and (min-width: 1769px){
+
+    #reviewBox div p span{
+        font-size: 0px;
+    }
+}
+@media only screen and (min-width: 2263.9px){
+
+    #reviewBox div p{
+        font-size: 0px;
+        border: 0px;
+    }
 }
