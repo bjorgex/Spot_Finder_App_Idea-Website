@@ -253,6 +253,15 @@ footer{
 
 }
 
+@media only screen and (min-width: 1300px){
+    #mainDiv{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
 @media only screen and (max-width: 600px){
     
     #divTopLeft p{
@@ -421,3 +430,5 @@ footer{
     }
     
 }
+
+
