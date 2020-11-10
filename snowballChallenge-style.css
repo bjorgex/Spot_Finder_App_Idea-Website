@@ -423,6 +423,11 @@ footer{
         visibility: hidden;
         width: 0;
     }
+
+    #reviewBox div:hover{
+        height: 300px;
+        width: 60%;
+    }
 }
 
 @media only screen and (min-width: 2257.75px){
@@ -456,10 +461,23 @@ a{
     text-decoration: none;
     color: black;
 }
+@media only screen and (max-width: 700px){
+    #reviewBox div:hover{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 500px){
+    #navBox nav div{
+        margin: 0;
+    }
+}
 
-@media only screen and (max-width: 415px){
+@media only screen and (max-width: 420px){
     #navBox nav div{
         margin: 1%;
+    }
+    #navBox{
+        width: 96.5%;
     }
 
     #divTopRight{
@@ -477,6 +495,16 @@ a{
 
     #divTopLeft p{
         font-size: 25px;
+    }
+
+    #navBox nav div{
+        margin: 0;
+    }
+
+    #reviewBox div:hover{
+        height: 33%;
+
+        width: 80%;
     }
 }
 
