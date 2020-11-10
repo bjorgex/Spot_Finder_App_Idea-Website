@@ -236,7 +236,8 @@ transition: 0.5s;
 }
 
 #slagOrdBox img{
-    text-align: right;
+    float: right;
+    width: 30%;
 }
 
 
@@ -456,16 +457,53 @@ a{
     color: black;
 }
 
-@media only screen and (min-width: 1769px){
+@media only screen and (max-width: 415px){
+    #navBox nav div{
+        margin: 1%;
+    }
 
-    #reviewBox div p span{
-        font-size: 0px;
+    #divTopRight{
+        display: flex;
+        justify-content: right;
+        background: transparent;
+        margin-right: 0;
+    }
+
+    #divTopRight a img{
+        width: 75%;
+        margin-left: 30%;
+        margin-right: 1%;
+    }
+
+    #divTopLeft p{
+        font-size: 25px;
     }
 }
-@media only screen and (min-width: 2263.9px){
 
-    #reviewBox div p{
-        font-size: 0px;
-        border: 0px;
+@media only screen and (max-width: 361px){
+    #divTopLeft p{
+        font-size: 15px;
     }
+
+    #navBox nav div{
+        width: 30%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    #navBox nav div p a{
+        font-size: 50%;
+        margin-top: 0;
+    }
+
+    #navBox nav div p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
 }
