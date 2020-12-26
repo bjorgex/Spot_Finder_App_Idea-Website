@@ -136,7 +136,7 @@ box-shadow:         3px 3px 5px 6px #ccc;
     width: 90%;
     height: 100%;
     display: flex;
-    flex-direction: row;
+    
     align-items: center;
 
 }
@@ -177,6 +177,8 @@ box-shadow:         3px 3px 5px 6px #ccc;
     font-size: 14px;
     
 }
+
+
 .countryAndPlace{
     padding-left: 5%;
     border: 1px;
@@ -437,7 +439,12 @@ footer{
     }   
 }
 
-
+@media only screen and (min-width: 1712px){
+    #reviewBox div p span{
+      display: none;
+        color: mintcream;
+    }
+}
 
 @media only screen and (max-width: 1329px){
     #localTreasureFlex div{
